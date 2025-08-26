@@ -15,7 +15,7 @@ import generic_utility.ListenerUtility;
 public class TC_AP_006_Test extends BaseClass{
 
 	@Test
-	public void clickonsbubtn() {
+	public void clickonsubbtn() {
 		
 		subpage sb = new subpage(driver);
 		Assert.assertEquals(driver.getCurrentUrl(), "https://automationexercise.com/","Home page is not displayed");

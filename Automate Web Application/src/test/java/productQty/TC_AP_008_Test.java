@@ -19,11 +19,11 @@ public class TC_AP_008_Test extends BaseClass {
 		prodQty pq = new prodQty(driver);
 		
 		Assert.assertEquals(driver.getCurrentUrl(), "https://automationexercise.com/","Home page is not displayed");
-		Reporter.log("Home page displayed");
+		Reporter.log("Home page displayed",true);
 		wUtil.scrolling(driver, pq.getViewProductlink());
 		pq.getViewProductlink().click();
 		Assert.assertEquals(driver.getCurrentUrl(), "https://automationexercise.com/product_details/1","Product Deatails page is not displayed");
-		Reporter.log("Product Deatails page is displayed");
+		Reporter.log("Product Deatails page is displayed",true);
 		 
 		pq.getQtylink().clear();
 		pq.getQtylink().sendKeys("4");

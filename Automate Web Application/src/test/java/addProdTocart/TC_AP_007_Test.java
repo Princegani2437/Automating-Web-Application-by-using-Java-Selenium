@@ -20,7 +20,7 @@ public class TC_AP_007_Test extends BaseClass{
 		
 		addToCart apc = new addToCart(driver);
 		Assert.assertEquals(driver.getCurrentUrl(), "https://automationexercise.com/","Home page is not displayed");
-		Reporter.log("Home page displayed");
+		Reporter.log("Home page displayed",true);
 		
 		apc.getProductsclicklink().click();
 		
@@ -32,7 +32,7 @@ public class TC_AP_007_Test extends BaseClass{
 		apc.getViewcartlink().click();
 		
 		Assert.assertEquals(apc.getShoppingCartlink().getSize(), "2","Expected 2 products is not in the cart");
-		Reporter.log("Expected 2 products in the cart");
+		Reporter.log("Expected 2 products in the cart",true);
 		
 		//wUtil.switchtowindow(driver, null)
 		

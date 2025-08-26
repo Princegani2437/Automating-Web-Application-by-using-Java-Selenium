@@ -79,11 +79,32 @@ public class regbfrcheckout {
 	@FindBy(xpath = " //a[contains(text(),'Logged in as ')]")
 	private WebElement lgnusrnamelink;
 	
+	@FindBy(xpath = "//a[text()=' Products']")
+	private WebElement Productsclicklink;
+	
+	@FindBy(xpath = "//p[text()='Blue Top']/../../..//a[text()='View Product']")
+	private WebElement viewProductlink;
+	
+	@FindBy(xpath = "//p[text()='Blue Top']/../../..//a[text()='Add to cart']")
+	private WebElement addtocartlinktop;
+	
+	//@FindBy(xpath = "//u[text()='View Cart']")
+	//private WebElement viewcartlink;
+	
+	@FindBy(xpath = "//u[text()='View Cart']")
+	private WebElement viewcart2;
+	
 	@FindBy(xpath = "//a[text()=' Cart']")
 	private WebElement cartlink2;
 	
+	@FindBy(xpath = "//button[text()='Continue Shopping']")
+	private WebElement ContinueShoppinglink;
+	
 	@FindBy(xpath = "//a[text()='Proceed To Checkout']")
 	private WebElement ProceedToCheckoutlink2;
+	
+	@FindBy(xpath = "//textarea[@name='message']")
+	private WebElement descriptionlink;
 	
 	@FindBy(xpath = "//a[text()='Place Order']")
 	private WebElement placeorderlink;
@@ -261,6 +282,34 @@ public class regbfrcheckout {
 
 	public WebElement getDltacctcntlink() {
 		return dltacctcntlink;
+	}
+
+	public WebElement getViewProductlink() {
+		return viewProductlink;
+	}
+
+	public WebElement getProductsclicklink() {
+		return Productsclicklink;
+	}
+
+	public WebElement getAddtocartlinktop() {
+		return addtocartlinktop;
+	}
+
+//	public WebElement getViewcartlink() {
+//		return viewcartlink;
+//	}
+
+	public WebElement getContinueShoppinglink() {
+		return ContinueShoppinglink;
+	}
+
+	public WebElement getViewcart2() {
+		return viewcart2;
+	}
+
+	public WebElement getDescriptionlink() {
+		return descriptionlink;
 	}
 	
 	

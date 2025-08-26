@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="addProdTocart.TC_AP_007_Test">
+      <class name="Registerbfrcheckoutntbd.TC_AP_010_Test">
         <methods>
           <include name="reportconfig"/>
           <include name="openBrowser"/>
-          <include name="clickoncart"/>
+          <include name="refbfrCheckout"/>
           <include name="closeBrowser"/>
           <include name="reportBackup"/>
         </methods>
-      </class> <!-- addProdTocart.TC_AP_007_Test -->
+      </class> <!-- Registerbfrcheckoutntbd.TC_AP_010_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
