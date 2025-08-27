@@ -124,7 +124,7 @@ public class regbfrcheckout {
 	@FindBy(xpath = "//input[@name='expiry_year']")
 	private WebElement expyearlink;
 	
-	@FindBy(id = "submit")
+	@FindBy(xpath = "//button[text()='Pay and Confirm Order']")
 	private WebElement ordercnflink;
 	
 	@FindBy(xpath = " //a[text()=' Delete Account']")

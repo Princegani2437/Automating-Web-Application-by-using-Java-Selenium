@@ -14,20 +14,20 @@
       <![CDATA[Cart page is displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-08-26T20:56:56 IST" name="Default suite" finished-at="2025-08-26T20:57:57 IST" duration-ms="61488">
+  <suite started-at="2025-08-27T11:28:43 IST" name="Default suite" finished-at="2025-08-27T11:29:43 IST" duration-ms="59339">
     <groups>
     </groups>
-    <test started-at="2025-08-26T20:56:56 IST" name="Default test" finished-at="2025-08-26T20:57:57 IST" duration-ms="61488">
+    <test started-at="2025-08-27T11:28:43 IST" name="Default test" finished-at="2025-08-27T11:29:43 IST" duration-ms="59339">
       <class name="Registerbfrcheckoutntbd.TC_AP_010_Test">
-        <test-method is-config="true" signature="reportconfig()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-26T20:56:55 IST" name="reportconfig" finished-at="2025-08-26T20:56:56 IST" duration-ms="617" status="PASS">
+        <test-method is-config="true" signature="reportconfig()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-27T11:28:43 IST" name="reportconfig" finished-at="2025-08-27T11:28:43 IST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportconfig -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-26T20:56:56 IST" name="openBrowser" finished-at="2025-08-26T20:57:16 IST" duration-ms="20674" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-27T11:28:43 IST" name="openBrowser" finished-at="2025-08-27T11:29:01 IST" duration-ms="17566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="refbfrCheckout()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-26T20:57:16 IST" name="refbfrCheckout" finished-at="2025-08-26T20:57:56 IST" duration-ms="39638" status="PASS">
+        <test-method signature="refbfrCheckout()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-27T11:29:01 IST" name="refbfrCheckout" finished-at="2025-08-27T11:29:42 IST" duration-ms="40818" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Home page displayed]]>
@@ -43,11 +43,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- refbfrCheckout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-26T20:57:56 IST" name="closeBrowser" finished-at="2025-08-26T20:57:57 IST" duration-ms="1090" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-27T11:29:42 IST" name="closeBrowser" finished-at="2025-08-27T11:29:43 IST" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="reportBackup()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-26T20:57:57 IST" name="reportBackup" finished-at="2025-08-26T20:57:59 IST" duration-ms="1545" status="PASS">
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:Registerbfrcheckoutntbd.TC_AP_010_Test@cc43f62]" started-at="2025-08-27T11:29:43 IST" name="reportBackup" finished-at="2025-08-27T11:29:44 IST" duration-ms="932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportBackup -->
