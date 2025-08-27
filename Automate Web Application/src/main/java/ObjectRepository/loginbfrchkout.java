@@ -25,8 +25,11 @@ public class loginbfrchkout {
 	@FindBy(xpath = "(//p[text()='Blue Top']/../../..//a[text()='Add to cart'])[1]")
 	private WebElement addtocartlinktop;
 	
+//	@FindBy(xpath = "//u[text()='View Cart']")
+//	private WebElement viewcartlink;
+	
 	@FindBy(xpath = "//u[text()='View Cart']")
-	private WebElement viewcartlink;
+	private WebElement viewcart2;
 	
 	@FindBy(xpath = "//a[text()='Proceed To Checkout']")
 	private WebElement ProceedToCheckoutlink;
@@ -71,4 +74,97 @@ public class loginbfrchkout {
 		PageFactory.initElements(driver, this);
 		
 	}
+
+	public WebElement getSignupLoginlink() {
+		return SignupLoginlink;
+	}
+
+	public WebElement getLoginemaillink() {
+		return loginemaillink;
+	}
+
+	public WebElement getLgnpswdlink() {
+		return lgnpswdlink;
+	}
+
+	public WebElement getLgnbtnlink() {
+		return lgnbtnlink;
+	}
+
+	public WebElement getLgnusrnamelink() {
+		return lgnusrnamelink;
+	}
+
+	public WebElement getAddtocartlinktop() {
+		return addtocartlinktop;
+	}
+
+//	public WebElement getViewcartlink() {
+//		return viewcartlink;
+//	}
+	
+	@FindBy(xpath = "//textarea[@name='message']")
+	private WebElement descriptionlink;
+
+	public WebElement getProceedToCheckoutlink() {
+		return ProceedToCheckoutlink;
+	}
+
+	public WebElement getCartlink2() {
+		return cartlink2;
+	}
+
+	public WebElement getProceedToCheckoutlink2() {
+		return ProceedToCheckoutlink2;
+	}
+
+	public WebElement getPlaceorderlink() {
+		return placeorderlink;
+	}
+
+	public WebElement getNameoncardlink() {
+		return nameoncardlink;
+	}
+
+	public WebElement getCardnolink() {
+		return cardnolink;
+	}
+
+	public WebElement getCvclink() {
+		return cvclink;
+	}
+
+	public WebElement getExpmntlink() {
+		return expmntlink;
+	}
+
+	public WebElement getExpyearlink() {
+		return expyearlink;
+	}
+
+	public WebElement getOrdercnflink() {
+		return ordercnflink;
+	}
+
+	public WebElement getDltacntlink() {
+		return dltacntlink;
+	}
+
+	public WebElement getAcntdltmsg() {
+		return acntdltmsg;
+	}
+
+	public WebElement getDltacctcntlink() {
+		return dltacctcntlink;
+	}
+
+	public WebElement getViewcart2() {
+		return viewcart2;
+	}
+
+	public WebElement getDescriptionlink() {
+		return descriptionlink;
+	}
+	
+	
 }

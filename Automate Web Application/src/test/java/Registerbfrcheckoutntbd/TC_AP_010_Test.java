@@ -2,11 +2,13 @@ package Registerbfrcheckoutntbd;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import ObjectRepository.regbfrcheckout;
 import generic_utility.BaseClass;
-
+import generic_utility.ListenerUtility;
+@Listeners(ListenerUtility.class)
 public class TC_AP_010_Test extends BaseClass{
 
 	@Test
@@ -61,8 +63,8 @@ public class TC_AP_010_Test extends BaseClass{
 
 		
 		
-		rbc.getDltacntlink().click();
-		rbc.getDltacctcntlink().click();
+		//rbc.getDltacntlink().click();
+		//rbc.getDltacctcntlink().click();
 		Thread.sleep(5000);
 	}
 }

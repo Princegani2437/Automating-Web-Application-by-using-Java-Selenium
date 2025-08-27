@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Registerbfrcheckoutntbd.TC_AP_010_Test">
+      <class name="loginbeforeCheckoout.TC_AP_011_Test">
         <methods>
           <include name="reportconfig"/>
           <include name="openBrowser"/>
-          <include name="refbfrCheckout"/>
           <include name="closeBrowser"/>
+          <include name="loginbfrckout"/>
           <include name="reportBackup"/>
         </methods>
-      </class> <!-- Registerbfrcheckoutntbd.TC_AP_010_Test -->
+      </class> <!-- loginbeforeCheckoout.TC_AP_011_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
