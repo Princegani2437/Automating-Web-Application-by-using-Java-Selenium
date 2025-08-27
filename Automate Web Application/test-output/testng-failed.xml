@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="removeproductcart.TC_AP_012_Test">
+      <class name="viewCategoryProducts.TC_AP_013_Test">
         <methods>
           <include name="reportconfig"/>
           <include name="openBrowser"/>
+          <include name="viewcatProduct"/>
           <include name="closeBrowser"/>
-          <include name="removeproduct"/>
           <include name="reportBackup"/>
         </methods>
-      </class> <!-- removeproductcart.TC_AP_012_Test -->
+      </class> <!-- viewCategoryProducts.TC_AP_013_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

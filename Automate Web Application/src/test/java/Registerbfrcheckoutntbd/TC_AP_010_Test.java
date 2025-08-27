@@ -69,4 +69,4 @@ public class TC_AP_010_Test extends BaseClass{
 	}
 }
 
-//8217695152 2402
+//Keys to send should be a not null CharSequence.
