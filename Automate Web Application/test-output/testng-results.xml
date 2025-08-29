@@ -2,50 +2,38 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Categories text is visible]]>
-    </line>
-    <line>
-      <![CDATA[Dress product is visible]]>
-    </line>
-    <line>
-      <![CDATA[Tshirt page is visible]]>
+      <![CDATA[Searched Product page is visible]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-08-27T21:55:40 IST" name="Default suite" finished-at="2025-08-27T21:58:58 IST" duration-ms="197697">
+  <suite started-at="2025-08-29T11:32:42 IST" name="Default suite" finished-at="2025-08-29T11:34:03 IST" duration-ms="80964">
     <groups>
     </groups>
-    <test started-at="2025-08-27T21:55:40 IST" name="Default test" finished-at="2025-08-27T21:58:58 IST" duration-ms="197697">
-      <class name="viewCategoryProducts.TC_AP_013_Test">
-        <test-method is-config="true" signature="reportconfig()[pri:0, instance:viewCategoryProducts.TC_AP_013_Test@413d1baf]" started-at="2025-08-27T21:55:39 IST" name="reportconfig" finished-at="2025-08-27T21:55:40 IST" duration-ms="649" status="PASS">
+    <test started-at="2025-08-29T11:32:42 IST" name="Default test" finished-at="2025-08-29T11:34:03 IST" duration-ms="80964">
+      <class name="searchprod_verify_aftr_login.TC_AP_015_Test">
+        <test-method is-config="true" signature="reportconfig()[pri:0, instance:searchprod_verify_aftr_login.TC_AP_015_Test@413d1baf]" started-at="2025-08-29T11:32:41 IST" name="reportconfig" finished-at="2025-08-29T11:32:42 IST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportconfig -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:viewCategoryProducts.TC_AP_013_Test@413d1baf]" started-at="2025-08-27T21:55:40 IST" name="openBrowser" finished-at="2025-08-27T21:57:42 IST" duration-ms="121731" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:searchprod_verify_aftr_login.TC_AP_015_Test@413d1baf]" started-at="2025-08-29T11:32:42 IST" name="openBrowser" finished-at="2025-08-29T11:33:29 IST" duration-ms="47264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="viewcatProduct()[pri:0, instance:viewCategoryProducts.TC_AP_013_Test@413d1baf]" started-at="2025-08-27T21:57:42 IST" name="viewcatProduct" finished-at="2025-08-27T21:58:56 IST" duration-ms="73914" status="PASS">
+        <test-method signature="searchproductafterlogin()[pri:0, instance:searchprod_verify_aftr_login.TC_AP_015_Test@413d1baf]" started-at="2025-08-29T11:33:30 IST" name="searchproductafterlogin" finished-at="2025-08-29T11:34:02 IST" duration-ms="31609" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Categories text is visible]]>
-            </line>
-            <line>
-              <![CDATA[Dress product is visible]]>
-            </line>
-            <line>
-              <![CDATA[Tshirt page is visible]]>
+              <![CDATA[Searched Product page is visible]]>
             </line>
           </reporter-output>
-        </test-method> <!-- viewcatProduct -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:viewCategoryProducts.TC_AP_013_Test@413d1baf]" started-at="2025-08-27T21:58:56 IST" name="closeBrowser" finished-at="2025-08-27T21:58:58 IST" duration-ms="1897" status="PASS">
+        </test-method> <!-- searchproductafterlogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:searchprod_verify_aftr_login.TC_AP_015_Test@413d1baf]" started-at="2025-08-29T11:34:02 IST" name="closeBrowser" finished-at="2025-08-29T11:34:03 IST" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="reportBackup()[pri:0, instance:viewCategoryProducts.TC_AP_013_Test@413d1baf]" started-at="2025-08-27T21:58:58 IST" name="reportBackup" finished-at="2025-08-27T21:58:59 IST" duration-ms="1149" status="PASS">
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:searchprod_verify_aftr_login.TC_AP_015_Test@413d1baf]" started-at="2025-08-29T11:34:03 IST" name="reportBackup" finished-at="2025-08-29T11:34:05 IST" duration-ms="1222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportBackup -->
-      </class> <!-- viewCategoryProducts.TC_AP_013_Test -->
+      </class> <!-- searchprod_verify_aftr_login.TC_AP_015_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

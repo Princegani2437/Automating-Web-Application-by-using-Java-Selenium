@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="viewCategoryProducts.TC_AP_013_Test">
+      <class name="searchprod_verify_aftr_login.TC_AP_015_Test">
         <methods>
+          <include name="searchproductafterlogin"/>
           <include name="reportconfig"/>
           <include name="openBrowser"/>
-          <include name="viewcatProduct"/>
           <include name="closeBrowser"/>
           <include name="reportBackup"/>
         </methods>
-      </class> <!-- viewCategoryProducts.TC_AP_013_Test -->
+      </class> <!-- searchprod_verify_aftr_login.TC_AP_015_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
