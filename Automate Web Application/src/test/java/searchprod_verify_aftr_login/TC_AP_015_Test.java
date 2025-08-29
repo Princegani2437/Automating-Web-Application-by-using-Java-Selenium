@@ -39,6 +39,6 @@ public class TC_AP_015_Test extends BaseClass{
 		spv.getLgnbtnlink().click();
 		spv.getCartlink().click();
 		
-		
+	//Verify that those products are visible in cart after login as well	
 	}
 }
